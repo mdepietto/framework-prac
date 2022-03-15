@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Button, IconButton, Typography } from '@material-ui/core'
 import { makeStyles } from '@material-ui/styles'
-import AlarmIcon from '@material-ui/icons/Alarm'
+import { AttachMoney } from '@material-ui/icons'
 
 // creates custom class
 const useStyles = makeStyles({
@@ -40,8 +40,12 @@ const Material = () => {
             >
                 Press me
             </Button>
-            <IconButton>
-                <AlarmIcon />
+            <IconButton
+                // className={ classes.mockParagraph }
+                // style={{ color: 'red', backgroundColor: 'blue' }}
+                color='primary'
+            >
+                <AttachMoney />
             </IconButton>
             <Typography
                 variant='h1'
