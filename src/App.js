@@ -9,6 +9,7 @@ import { createTheme, ThemeProvider } from '@material-ui/core/styles'
 import { green } from '@material-ui/core/colors'
 
 import ReactForm from './components/ReactForm'
+import ReactForm2 from './components2/ReactForm2'
 
 //changes default theme properties - mui
 const theme = createTheme({
@@ -34,8 +35,9 @@ function App() {
       {/* <ThemeProvider theme={ theme }>
         <Material />
       </ThemeProvider> */}
-      <Material2 />
+      {/* <Material2 /> */}
       {/* <ReactForm /> */}
+      <ReactForm2 />
     </div>
   );
 }
